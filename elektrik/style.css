@@ -1,0 +1,94 @@
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background: linear-gradient(#fc0352, #fc7600, #f5ed05, #a5f505, #05d1f5, #021af2, #7202f2)
+  }
+  @import url(http://allfont.ru/allfont.css?fonts=a_lcdnova);
+
+p {
+	font-family: 'a_LCDNova', arial;
+	font-size: 45px;
+	text-align: center;
+}
+
+.sc{
+		cursor: pointer;
+		display: inline-block;
+		color: black;
+		text-decoration: none;
+		user-select: none;
+		padding: .5em 2em;
+		outline: none;
+		border: 2px double #b9fc0f;
+		font-family: 'Roboto Mono', monospace;
+		font-size: 14px;
+		padding: 10px 30px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.sc:hover{
+	background-color: blue;
+	color: white;
+}
+
+.again{
+	cursor: pointer;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	user-select: none;
+	outline: none;
+	border: 2px double #b9fc0f;
+	border-radius: 4px;
+	transition: 0.4s;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-left: 165px;
+  padding: 10px 15px;
+  
+  
+}
+
+.again:hover{
+	background-color: blue;
+	color: white;
+}
+
+.row div{
+	height: 67px;
+	width: 67px;
+	margin: 2px;
+	cursor: pointer;
+	display:inline-block;
+  padding: 3px 3px;
+  border-radius: 10px;
+  transition: .2s linear;
+}
+
+.row div:hover{
+	background-color:#c84fe3;
+	color: white;
+}
+
+.on{
+	background: radial-gradient(circle, #fc0352 6%, #fc7600 100%);
+	border: 1px solid rgb(255, 251, 0);
+}
+
+.off{
+background: #4f114f;
+border: 1px solid rgb(80, 74, 74);
+}
+.butt{
+text-align: center;
+margin-top: 12px;
+}
+.lo{
+	width:100%;
+}
